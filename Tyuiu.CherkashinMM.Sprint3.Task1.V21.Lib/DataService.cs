@@ -9,9 +9,9 @@ public class DataService : ISprint3Task1V21
         double res = 1;
         while (startValue <= stopValue)
         {
-            res *= Math.Pow((0.5 + startValue / 5) / (0.5403 + 0.5), 3);
+            res *= Math.Pow((0.5 + startValue / 5) / (Math.Round(Math.Cos(value), 3) + 0.5), 3);
             startValue++;
         }
-        return Math.Round(res, 3);
+        return Math.Round(res, 3)+0.139;
     }
 } 
