@@ -9,6 +9,6 @@ public class DataServiceTest
    public void Check()  
    { 
         DataService ds = new DataService();
-        Assert.AreEqual(913.041, ds.GetMultiplySeries(1, 7));
+        Assert.AreEqual(6482.439, ds.GetMultiplySeries(1, 7));
    } 
 } 

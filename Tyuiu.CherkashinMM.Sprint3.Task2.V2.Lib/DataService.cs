@@ -11,7 +11,7 @@ public class DataService : ISprint3Task2V2
         {
             result *= Math.Sin(0.1) + startValue;
             startValue++;
-        } while (startValue < stopValue);
+        } while (startValue <= stopValue);
         return Math.Round(result, 3);
     }
 } 
