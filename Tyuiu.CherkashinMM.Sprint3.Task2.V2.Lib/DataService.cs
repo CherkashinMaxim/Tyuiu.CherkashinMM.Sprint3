@@ -14,4 +14,4 @@ public class DataService : ISprint3Task2V2
         } while (startValue <= stopValue);
         return Math.Round(result, 3);
     }
-} 
+}
