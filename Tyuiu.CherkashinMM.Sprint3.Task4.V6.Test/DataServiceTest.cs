@@ -8,5 +8,7 @@ public class DataServiceTest
    [TestMethod] 
    public void ValidExpression()  
    { 
+        DataService ds = new DataService();
+        Assert.AreEqual(8.995, ds.Calculate(-5, 5));
    } 
 } 

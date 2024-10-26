@@ -6,14 +6,14 @@ public class DataService : ISprint3Task4V6
 {
     public double Calculate(int startValue, int stopValue)
     {
-        double sum = 0.0;
+        double sum = 0;
         for (int i = startValue; i <= stopValue; i++)
         {
-            if(startValue == 0)
+            if(i == 0)
             {
                 break;
             }
-            sum += startValue / (Math.Cos(startValue) - Math.Sin(startValue));
+            sum = sum + (i * (1 / (Math.Cos(i) - Math.Sin(i))));
         }
         return Math.Round(sum, 3);
     }
