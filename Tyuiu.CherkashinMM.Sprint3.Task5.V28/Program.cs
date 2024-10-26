@@ -29,6 +29,7 @@ class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                           *"); 
         Console.WriteLine("************************************************************************"); 
  
-        Console.WriteLine(); 
+        DataService ds = new DataService();
+        Console.WriteLine(ds.GetSumSumSeries(2, 1, 3, 1, 12)); 
     } 
 } 
