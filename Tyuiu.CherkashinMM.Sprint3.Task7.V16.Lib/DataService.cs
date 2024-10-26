@@ -10,7 +10,7 @@ public class DataService : ISprint3Task7V16
         int cnt = 0;
         for (int x = startValue; x <= stopValue; x++)
         {
-            double temp = Math.Round((Math.Cos(x)/(x - 0.4)) + Math.Sin(x) * 8 * x + 2, 3);
+            double temp = Math.Round((Math.Cos(x)/(x - 0.4)) + Math.Sin(x) * 8 * x + 2, 2);
             res[cnt] = temp;
             cnt++;
         }
